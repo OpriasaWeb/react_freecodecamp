@@ -5,6 +5,9 @@ import TypesOfFood from './components/TypesOfFood';
 import Fruits from './components/FruitComponents/fruit';
 import CurrentDate from './components/CurrentDate';
 import Todo from './components/Todo';
+import Product from './components/Product';
+import FullName from './components/FullName';
+import Counter from './components/SimpleCounter';
 
 function App() {
   return (
@@ -30,6 +33,10 @@ function App() {
       <Fruits />
       <CurrentDate />
       <Todo />
+      <Product />
+      <p>We used state here: <span><FullName /></span></p>
+
+      <Counter />
 
     </div>
 
