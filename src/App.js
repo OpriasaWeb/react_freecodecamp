@@ -1,7 +1,10 @@
 import './App.css';
-import MyComponent from './components/MyComponent'
+// import MyComponent from './components/MyComponent'
 import Kitten from './components/Kitten'
 import TypesOfFood from './components/TypesOfFood';
+import Fruits from './components/FruitComponents/fruit';
+import CurrentDate from './components/CurrentDate';
+import Todo from './components/Todo';
 
 function App() {
   return (
@@ -21,9 +24,12 @@ function App() {
         <hr />
       </div>
 
-      <MyComponent />
+      {/* <MyComponent /> */}
       <Kitten />
       <TypesOfFood />
+      <Fruits />
+      <CurrentDate />
+      <Todo />
 
     </div>
 
