@@ -8,6 +8,12 @@ import Todo from './components/Todo';
 import Product from './components/Product';
 import FullName from './components/FullName';
 import Counter from './components/SimpleCounter';
+import Input from './components/Input';
+import ControlledForm from './components/ControlledForm';
+import MyApp from './components/MyApp';
+import ReactController from './components/ReactController';
+import MagicEightBall from './components/MagicEightBall';
+import CheckUserAge from './components/UserAge';
 
 function App() {
   return (
@@ -37,7 +43,14 @@ function App() {
       <p>We used state here: <span><FullName /></span></p>
 
       <Counter />
+      <Input />
 
+      <ControlledForm />
+
+      <MyApp />
+      <ReactController />
+      <MagicEightBall />
+      <CheckUserAge />
     </div>
 
 
